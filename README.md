@@ -61,7 +61,7 @@ CYUN SDK当前版本支持的物联网云如下表,使用CYUN SDK并不需要单
 ---
 #### 测试PC侧（模拟物联网设备）配置修改
 
-    cd bin/baidu/config
+    cd bin/x86/64bit/baidu/conf         -->以x86 64位主机为例
     参考下面图片修改此目录下的qyun文件
 
 ![CFGBAIDUMAP](images/config-baidu-map-v1.png)
@@ -77,7 +77,7 @@ CYUN SDK当前版本支持的物联网云如下表,使用CYUN SDK并不需要单
 ---
 #### 测试PC侧（模拟物联网设备）程序运行
 
-    cd bin/baidu/bin
+    cd bin/x86/64bit/baidu/bin
     ./tryit.sh
 
 tryit.sh　脚本会自动调用qyunali应用程序使用conf目录下的qyun作为配置文件连接百度天工云服务器
@@ -103,7 +103,7 @@ tryit.sh　脚本会自动调用qyunali应用程序使用conf目录下的qyun作
 ---
 #### 测试PC侧（模拟物联网设备）配置修改
 
-    cd bin/aliyun/config
+    cd bin/x86/64bit/aliyun/conf
     参考下面图片修改此目录下的qyun文件
 
 ![CFGBAIDUMAP](images/config-aliyun-map-v1.png)
@@ -119,7 +119,7 @@ tryit.sh　脚本会自动调用qyunali应用程序使用conf目录下的qyun作
 ---
 #### 测试PC侧（模拟物联网设备）程序运行
 
-　　　　cd bin/aliyun/bin
+　　　　cd bin/x86/64bit/aliyun/bin
 　　　　./tryit.sh
 
 tryit.sh　脚本会自动调用qyunali应用程序使用conf目录下的qyun作为配置文件连接阿里云服务器
@@ -142,7 +142,7 @@ tryit.sh　脚本会自动调用qyunali应用程序使用conf目录下的qyun作
 ---
 #### 测试PC侧（模拟物联网设备）配置修改
 
-    cd bin/tencent/config
+    cd bin/x86/64bit/tencent/conf
     参考下面图片修改此目录下的qyun文件
 
 ![CFGBAIDUMAP](images/config-tencent-map-v1.png)
@@ -158,7 +158,7 @@ tryit.sh　脚本会自动调用qyunali应用程序使用conf目录下的qyun作
 ---
 #### 测试PC侧（模拟物联网设备）程序运行
 
-　　　　cd bin/tencent/bin
+　　　　cd bin/x86/64bit/tencent/bin
 　　　　./tryit.sh
 
 tryit.sh　脚本会自动调用qyunali应用程序使用conf目录下的qyun作为配置文件连接腾讯云服务器
@@ -191,12 +191,14 @@ CYUN SDK 提供丰富的文档，以便于开发、测试使用:
 ---
 ### 联系方式 ###
 如果对CYUN SDK 感兴趣，欢迎通过技术　[文档网站](https://www.docdoc.top) 沟通,欢迎如QQ群交流.
+
+
 如有其他任何问题,包括但不限于合作/定制/其他云移植/侵权等任意事情,欢迎联系销售人员.
 
 
 | CYUN SDK QQ群　 | CYUN SDK 公众号 | 销售人员联系方式 |
 | ------------- | ------------- | --- |
-| ![QQGroup](images/qq-group-barcode.png)  | ![Wechat](images/ano-wechat-barcode.png)  | ![sales](image/cyun-sales-contact.jpg)
+| ![QQGroup](images/qq-group-barcode.png)  | ![Wechat](images/ano-wechat-barcode.png)  | ![sales](images/cyun-sales-contact.jpg)
 
 [aliyunsdk]: https://linkkit-sdk-download.oss-cn-shanghai.aliyuncs.com/linkkit2.2.1.tar.gz?spm=a2c4g.11186623.2.16.decf5b3elSumId&file=linkkit2.2.1.tar.gz
 [baidusdk]: https://github.com/baidu/iot-edge-c-sdk
