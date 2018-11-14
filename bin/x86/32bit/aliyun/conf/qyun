@@ -1,0 +1,12 @@
+config qyun system
+	option secturl 'https://iot-auth.cn-shanghai.aliyuncs.com/auth/register/device'
+	option curpdt 'qyunsdk'
+	option partner 'qlnk'
+	option shadowint '60000'
+	option debughex '0xffffffff'
+
+config product qyunsdk
+	option deviceid 'sdkpc'
+	option devicesecrt 'yCVxhARrz6vaioYRwyQ9fSGNBtkZTWKI'
+	option productkey 'a1gMUMcUyDP'
+	option productsecrt '7ktmqKpl8wy4L1eX'

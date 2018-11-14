@@ -1,0 +1,12 @@
+config qyun system
+	option secturl 'https://iot-auth.cn-shanghai.aliyuncs.com/auth/register/device'
+	option curpdt 'testfor1'
+	option partner 'qlnk'
+	option debughex '0xffffffff'
+	option shadowint '10000'
+
+config product testfor1
+	option deviceid 'sdktest'
+	option devicesecrt 'HX1EANzln3DBDTe0ZOXUUQ=='
+	option productkey 'testfor1'
+	option productsecrt 'RAB0Y8MD96'

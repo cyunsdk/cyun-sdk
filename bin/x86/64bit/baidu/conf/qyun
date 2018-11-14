@@ -1,0 +1,14 @@
+config qyun system
+	option secturl 'https://iot-auth.cn-shanghai.aliyuncs.com/auth/register/device'
+	option curpdt 'teshit'
+	option partner 'qlnk'
+	option shadowint '10000'
+	option debughex '0xffffffff'
+	option debuglevel '0'
+
+config product teshit
+	option deviceid 'aaa'
+	option devicesecrt 'rZiljRCymVFGVCcn'
+	option productkey 'b58e2648430c4c608959abfe24b2eff9'
+	option productsecrt ''
+	option server 'mqtt.iot.gz.baidubce.com'
