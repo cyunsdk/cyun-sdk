@@ -27,8 +27,8 @@
 ---
 #### 测试PC侧（模拟物联网设备）程序运行
 
-　　　　cd bin/tencent/bin
-　　　　./tryit.sh
+    cd bin/tencent/bin
+    ./tryit.sh
 
 tryit.sh　脚本会自动调用qyunali应用程序使用conf目录下的qyun作为配置文件连接腾讯云服务器
 
